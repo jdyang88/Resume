@@ -80,17 +80,6 @@ st.write(
 """
 )
 
-# --- SKILLS ---
-st.write('\n')
-st.subheader("IT Skills")
-st.write(
-    """
-- 👩‍💻 Knowledge : Machine Leraning / Deep Learning for data science
-- 📊 Coding Language : Python
-- 📚 etc. : MS word, PPT and Excel / basic knowledge in HTML, CSS, JavaScript
-"""
-)
-
 # --- WORK HISTORY ---
 st.write('\n')
 st.subheader("Work History (1995-Present)")
@@ -128,6 +117,17 @@ st.write(
 - ► Responsible for all S.E. Asia projects
 - ► Build relationships with partners and Vienamese Gov.
 - ► Develop New Ventures, contract negotiations, asset valuation
+"""
+)
+
+# --- SKILLS ---
+st.write('\n')
+st.subheader("IT Skills")
+st.write(
+    """
+- 👩‍💻 Knowledge : Machine Leraning / Deep Learning for data science
+- 📊 Coding Language : Python
+- 📚 etc. : MS word, PPT and Excel / basic knowledge in HTML, CSS, JavaScript
 """
 )
 
