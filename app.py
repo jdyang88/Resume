@@ -120,6 +120,9 @@ st.write(
 """
 )
 
+st.write('\n')
+st.write("---")
+
 # --- SKILLS ---
 st.write('\n')
 st.subheader("IT Skills")
