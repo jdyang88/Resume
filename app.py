@@ -137,7 +137,7 @@ PROJECTS = {
     "🏆 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/"
 }
 for project_name, project_url in PROJECTS.items():
-    st.markdown(f"[{project_name}]({project_url})")
+    st.write(f"[{project_name}]({project_url})")
 
 st.write('\n')
 st.write("---")
@@ -157,6 +157,5 @@ ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support gr
 
 st.write("---")
 
-# for project, link in PROJECTS.items():
-#     st.write(f"[{project}]({link})")
+
 
