@@ -109,7 +109,7 @@ st.write(
 
 # --- PROJECTS SECTION ---
 st.write('\n')
-st.subheader("Projects")
+st.write("Some examples")
 PROJECTS = {
     "🏆 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
     "🏆 Korea Lotto Prediciton by 5 Machine Learing Models": "https://korealotto-jdyangh88.streamlit.app/",
