@@ -116,8 +116,20 @@ PROJECTS = {
     "🏆 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/"
 }
 for project_name, project_url in PROJECTS.items():
-    # Using a color that is visible on both light and dark backgrounds
-    st.markdown(f"<a href='{project_url}' target='_blank' style='color:darkblue; text-decoration:none;'>{project_name}</a>", unsafe_allow_html=True)
+    # Setting text color to black explicitly for visibility on white backgrounds
+    st.markdown(f"<a href='{project_url}' target='_blank' style='color:black; text-decoration:none;'>{project_name}</a>", unsafe_allow_html=True)
+
+# --- PROJECTS SECTION ---
+st.write('\n')
+st.subheader("Projects")
+PROJECTS = {
+    "🏆 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
+    "🏆 Korea Lotto Prediciton by 5 Machine Learing Models": "https://korealotto-jdyangh88.streamlit.app/",
+    "🏆 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/"
+}
+for project_name, project_url in PROJECTS.items():
+    # Setting text color to black explicitly for visibility on white backgrounds
+    st.markdown(f"<a href='{project_url}' target='_blank' style='color:black; text-decoration:none;'>{project_name}</a>", unsafe_allow_html=True)
 
 st.write('\n')
 st.write("---")
