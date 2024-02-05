@@ -1,15 +1,12 @@
 from pathlib import Path
-
 import streamlit as st
 from PIL import Image
-
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
-
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | JD(Jungdae) Yang"
@@ -20,24 +17,14 @@ Senior Manager working for SK earthon, 100% owned by SK innovation
 """
 EMAIL = "jdyang88@gmail.com"
 
-# SOCIAL_MEDIA = {
-#     "YouTube": "https://youtube.com/c/codingisfun",
-#     "LinkedIn": "https://linkedin.com",
-#     "GitHub": "https://github.com",
-#     "Twitter": "https://twitter.com",
-# }
-
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-
-# --- LOAD CSS, PDF & PROFIL PIC ---
+# --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
-
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
@@ -54,14 +41,6 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-
-
-# --- SOCIAL LINKS ---
-st.write('\n')
-# cols = st.columns(len(SOCIAL_MEDIA))
-# for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-#     cols[index].write(f"[{platform}]({link})")
-
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
@@ -130,14 +109,14 @@ st.write(
 
 # --- PROJECTS SECTION ---
 st.write('\n')
-st.write("Some examples")
+st.subheader("Projects")
 PROJECTS = {
     "🏆 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
     "🏆 Korea Lotto Prediciton by 5 Machine Learing Models": "https://korealotto-jdyangh88.streamlit.app/",
     "🏆 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/"
 }
 for project_name, project_url in PROJECTS.items():
-    st.write(f"[{project_name}]({project_url})")
+    st.markdown(f"<a href='{project_url}' target='_blank' style='color:blue; text-decoration:none;'>{project_name}</a>", unsafe_allow_html=True)
 
 st.write('\n')
 st.write("---")
@@ -147,15 +126,16 @@ st.write('\n')
 st.write("🗄️ Other Career : Military Service (1989-1991)")
 st.write(
 """
-KATUSA in the US Army base in Korea for 3 years as Medium heavy truck(M915) driver and Driver Instroductor in DTA(Drivers Training Academy),
-Partly performed mission for the 1st Gulf War in 1991 """)
+Serviced as KATUSA in US Army base in Korea for 3 years as Medium heavy truck(M915) driver,
+Partly performed mission for the 1st Gulf War in 1991""")
 st.write(
 """
-Awards : Distinguished Graduate in DTA in 69th Transportation Battalion in 1989 / 
+Awards : Distinguished Graduate in Drivers Training Academy in 69th Transportation Battalion in 1989 / 
 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group 
 """)
 
 st.write("---")
+
 
 
 
