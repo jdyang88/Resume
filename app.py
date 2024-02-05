@@ -151,7 +151,7 @@ KATUSA in the US Army base in Korea for 3 years as Medium heavy truck(M915) driv
 Partly performed mission for the 1st Gulf War in 1991 """)
 st.write(
 """
-Awards : Distinguished Graduate in Drivers Training Academy in 69th Transportation Battalion in 1989 / 
+Awards : Distinguished Graduate in DTA in 69th Transportation Battalion in 1989 / 
 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group 
 """)
 
