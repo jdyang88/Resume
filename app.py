@@ -116,7 +116,8 @@ PROJECTS = {
     "🏆 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/"
 }
 for project_name, project_url in PROJECTS.items():
-    st.markdown(f"<a href='{project_url}' target='_blank' style='color:blue; text-decoration:none;'>{project_name}</a>", unsafe_allow_html=True)
+    # Using a color that is visible on both light and dark backgrounds
+    st.markdown(f"<a href='{project_url}' target='_blank' style='color:darkblue; text-decoration:none;'>{project_name}</a>", unsafe_allow_html=True)
 
 st.write('\n')
 st.write("---")
