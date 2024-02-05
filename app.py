@@ -26,12 +26,6 @@ EMAIL = "jdyang88@gmail.com"
 #     "GitHub": "https://github.com",
 #     "Twitter": "https://twitter.com",
 # }
-# PROJECTS = {
-#     "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-#     "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-#     "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-#     "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-# }
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -130,18 +124,30 @@ st.write(
     """
 - 👩‍💻 Knowledge : Machine Leraning / Deep Learning for data science
 - 📊 Coding Language : Python
-- 📚 etc. : MS word, PPT and Excel / basic knowledge in HTML, CSS, JavaScript
+- 📚 etc. : MS Office(MS word, PPT and Excel) / basic knowledge in HTML, CSS, JavaScript
 """
 )
 
+# --- PROJECTS SECTION ---
+st.write('\n')
+st.write("Some examples")
+PROJECTS = {
+    "🏆 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
+    "🏆 Korea Lotto Prediciton by 5 Machine Learing Models": "https://korealotto-jdyangh88.streamlit.app/",
+    "🏆 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/"
+}
+for project_name, project_url in PROJECTS.items():
+    st.markdown(f"[{project_name}]({project_url})")
+
 st.write('\n')
 st.write("---")
+
 #--- Other Career ---
 st.write('\n')
 st.write("🗄️ Other Career : Military Service (1989-1991)")
 st.write(
 """
-Serviced as KATUSA in US Army base in Korea for 3 years as Medium heavy truck(M915) driver,
+KATUSA in the US Army base in Korea for 3 years as Medium heavy truck(M915) driver and Driver Instroductor in DTA(Drivers Training Academy),
 Partly performed mission for the 1st Gulf War in 1991 """)
 st.write(
 """
@@ -149,8 +155,8 @@ Awards : Distinguished Graduate in Drivers Training Academy in 69th Transportati
 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group 
 """)
 
+st.write("---")
 
-# st.write("---")
 # for project, link in PROJECTS.items():
 #     st.write(f"[{project}]({link})")
 
