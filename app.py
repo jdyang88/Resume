@@ -148,7 +148,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "CV_JDYang.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
@@ -157,7 +157,7 @@ PAGE_TITLE = "Digital CV | JD(Jungdae) Yang"
 PAGE_ICON = ":wave:"
 NAME = "JD(Jungdae) Yang"
 DESCRIPTION = """
-Senior Manager working for SK earthon, 100% owned by SK innovation
+Senior Project Manager working for SK earthon
 """
 EMAIL = "jdyang88@gmail.com"
 
@@ -209,9 +209,9 @@ st.write('\n')
 st.subheader("Experience")
 st.write(
     """
-- ✔️ 18 years in commercial, financial & strategic planning in E&P industry
-- ✔️ 6 years as commercial manager in Lubricants industry
-- ✔️ 5 years as chemical engineer in Petrochemical field in Aromatics plant
+- ✔️ 18 years in commercial, financial & strategic planning in E&P biz.
+- ✔️ 6 years as commercial manager in Lubricants biz.
+- ✔️ 5 years as chemical engineer in Petrochemicals
 """
 )
 
@@ -263,9 +263,9 @@ st.write('\n')
 st.subheader("IT Skills")
 st.write(
     """
-- 👩‍💻 Knowledge : Machine Leraning / Deep Learning for data science
-- 📊 Coding Language : Python
-- 📚 etc. : MS Office(MS word, PPT and Excel) / basic knowledge in HTML, CSS, JavaScript
+- 📊 Intermediate Coding Skill with Python
+- 📊 Basic Knowledge : Machine Leraning / Deep Learning for data science
+- 📊 MS Office(MS word, PPT and Excel) & others in HTML, CSS, JavaScript
 """
 )
 
@@ -278,6 +278,8 @@ PROJECTS = {
     "📚 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/",
     "📚 Korea LNG Ltd. Homepage": "https://kolnghomepage.netlify.app/",
 }
+
+
 for project_name, project_url in PROJECTS.items():
     st.write(f"[{project_name}]({project_url})")
 
@@ -289,13 +291,12 @@ st.write('\n')
 st.write("🗄️ Other Career : Military Service(1989-1991)")
 st.write(
 """
-KATUSA in the US Army base in Korea for 3 years as a Medium heavy truck(M915) driver and a Senior Driver Instroductor in DTA(Drivers Training Academy),
+KATUSA in the US Army base in Korea for 3 years as a heavy truck(M915) driver and a Head of Sergeant Instructors in DTA(Drivers Training Academy),
 Partly performed mission for the 1st Gulf War in 1991 """)
-st.write(
-"""
-🏆 Awards : Distinguished Graduate in DTA in 69th Transportation Battalion in 1989
-🏆 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group 
-""")
+st.markdown("""
+🏆 Awards : Distinguished Graduate in DTA in 69th Transportation Battalion in 1989<br>
+🏆 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group
+""", unsafe_allow_html=True)
 
 st.write("---")
 
