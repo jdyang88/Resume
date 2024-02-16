@@ -276,6 +276,7 @@ PROJECTS = {
     "📚 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
     "📚 Korea Lotto Prediciton by 5 Machine Learing Models": "https://korealotto-jdyangh88.streamlit.app/",
     "📚 Korea Stocks Prediction by Deep Learning Models(LSTM and Prophet)": "https://stocks-jdyang88.streamlit.app/",
+    "📚 Korea Apartment Sales & Rent/Lease": "https://apartment-jdyang88.streamlit.app/",
     "📚 Korea LNG Ltd. Homepage": "https://kolnghomepage.netlify.app/",
 }
 
