@@ -148,14 +148,14 @@ st.write("---")
 #--- Other Career ---
 st.write('\n')
 st.write("🗄️ Other Career : Military Service(1989-1991)")
-st.write(
-"""
-KATUSA in the US Army base in Korea for 3 years as a heavy truck(M915) driver and a Head of Sergeant Instructors in DTA(Drivers Training Academy),
-Partly performed mission for the 1st Gulf War in 1991 """)
-st.markdown("""
-🏆 Awards : Distinguished Graduate in DTA in 69th Transportation Battalion in 1989<br>
-🏆 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group
-""", unsafe_allow_html=True)
+# st.write(
+# """
+# KATUSA in the US Army base(Camp Carroll) in Korea for 3 years as a heavy truck(M915) driver and a Head of Sergeant Instructors in DTA(Drivers Training Academy),
+# Partly performed mission for the 1st Gulf War in 1991 """)
+# st.markdown("""
+# 🏆 Awards : Distinguished Graduate in DTA in 69th Transportation Battalion in 1989<br>
+# 🏆 ARCOM(The army commendation medal) Award in 1991 by Commander of 20th support group
+# """, unsafe_allow_html=True)
 
 st.write("---")
 
