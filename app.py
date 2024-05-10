@@ -121,7 +121,7 @@ st.write('\n')
 st.subheader("IT Skills")
 st.write(
     """
-- 📊 Intermediate Coding Skill with Python
+- 📊 Coding Skill with Python : matplotlib, seaborn, sklearn, pytorch...
 - 📊 Basic Knowledge : Machine Leraning / Deep Learning for data science
 - 📊 MS Office(MS word, PPT and Excel) & others in HTML, CSS, JavaScript
 """
