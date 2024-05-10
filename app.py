@@ -15,7 +15,7 @@ PAGE_TITLE = "Digital CV | JD(Jungdae) Yang"
 PAGE_ICON = ":wave:"
 NAME = "JD(Jungdae) Yang"
 DESCRIPTION = """
-Senior Project Manager working for SK earthon
+Senior Manager in SK earthon
 """
 EMAIL = "jdyang88@gmail.com"
 
