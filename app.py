@@ -11,7 +11,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | JD(Jungdae) Yang"
+PAGE_TITLE = "Digital CV | JD Yang"
 PAGE_ICON = ":wave:"
 NAME = "JD(Jungdae) Yang"
 DESCRIPTION = """
