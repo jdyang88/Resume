@@ -13,7 +13,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | JD Yang"
 PAGE_ICON = ":wave:"
-NAME = "JD(Jungdae) Yang"
+NAME = "JD Yang"
 DESCRIPTION = """
 Senior Manager in SK earthon
 """
@@ -134,7 +134,7 @@ PROJECTS = {
     "📚 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
     "📚 Korea Lotto Prediciton by 5 ML Models": "https://korealotto-jdyangh88.streamlit.app/",
     "📚 Korea Stocks Prediction by DL Model": "https://stocks-jdyang88.streamlit.app/",
-    "📚 Korea Apartment Sales & Rent/Lease": "https://apartment-jdyang88.streamlit.app/",
+   # "📚 Korea Apartment Sales & Rent/Lease": "https://apartment-jdyang88.streamlit.app/",
     "📚 Korea LNG Ltd. Homepage": "https://kolnghomepage.netlify.app/",
 }
 
