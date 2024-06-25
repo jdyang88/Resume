@@ -17,7 +17,7 @@ NAME = "JD(Jungdae) Yang"
 DESCRIPTION = """
 Senior Manager in SK earthon
 """
-EMAIL = "jdyang88@gmail.com"
+EMAIL = "jdyang@sk.com"
 
 # SOCIAL_MEDIA = {
 #     "YouTube": "https://youtube.com/c/codingisfun",
@@ -35,7 +35,7 @@ with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
-profile_pic = Image.open(profile_pic1)
+profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ---
