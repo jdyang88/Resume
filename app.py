@@ -146,8 +146,8 @@ st.write('\n')
 st.write("---")
 
 #--- Other Career ---
-st.write('\n')
-st.write("🗄️ Other Career : Military Service(1989-1991)")
+# st.write('\n')
+# st.write("🗄️ Other Career : Military Service(1989-1991)")
 # st.write(
 # """
 # KATUSA in the US Army base(Camp Carroll) in Korea for 3 years as a heavy truck(M915) driver and a Head of Sergeant Instructors in DTA(Drivers Training Academy),
