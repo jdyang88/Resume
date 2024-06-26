@@ -15,7 +15,7 @@ PAGE_TITLE = "Digital CV | JD Yang"
 PAGE_ICON = ":wave:"
 NAME = "JD Yang"
 DESCRIPTION = """
-Senior Manager in SK earthon
+Project Manager in SK earthon
 """
 EMAIL = "jdyang@sk.com"
 
@@ -79,7 +79,7 @@ st.subheader("Work History (1995-Present)")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Senior Manager  | SK earthon**")
+st.write("🚧", "**Project Manager  | SK earthon**")
 st.write("10/2022 - Present")
 st.write(
     """
