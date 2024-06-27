@@ -116,13 +116,13 @@ st.write(
 st.write('\n')
 st.write("---")
 
-# --- SKILLS ---
+# --- INTEREST ---
 st.write('\n')
-st.subheader("IT Skills")
+st.subheader("Interest")
 st.write(
     """
-- 📊 Coding Skill with Python : matplotlib, seaborn, sklearn, pytorch...
-- 📊 Basic Knowledge : ML / Deep Learning for data science
+- 📊 Coding with Python : matplotlib, seaborn, sklearn, pytorch...
+- 📊 ML / Deep Learning for data science
 - 📊 MS Office & others in HTML, CSS, JavaScript
 """
 )
