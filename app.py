@@ -123,7 +123,7 @@ st.write(
     """
 - 📊 Coding with Python : matplotlib, seaborn, sklearn, pytorch...
 - 📊 ML / Deep Learning for data science
-- 📊 MS Office & others in HTML, CSS, JavaScript
+- 📊 RPA & etc.
 """
 )
 
