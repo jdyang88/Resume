@@ -91,7 +91,7 @@ st.write(
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**Director | Korea LNG Ltd.**")
+st.write("🚧", "**Director | Korea LNG Ltd.(London in U.K.)**")
 st.write("02/2019 - 10/2022")
 st.write(
     """
