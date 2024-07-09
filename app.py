@@ -121,8 +121,8 @@ st.write('\n')
 st.subheader("Interest")
 st.write(
     """
-- 📊 Coding with Python : matplotlib, seaborn, sklearn, pytorch...
-- 📊 ML / Deep Learning for data science
+- 📊 Python for data science : matplotlib, seaborn, sklearn...
+- 📊 Machine Learning / Deep Learning
 - 📊 RPA & etc.
 """
 )
