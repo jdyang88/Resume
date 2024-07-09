@@ -121,7 +121,7 @@ st.write('\n')
 st.subheader("Interest")
 st.write(
     """
-- 📊 Python for data science : matplotlib, seaborn, sklearn...
+- 📊 Python for data science
 - 📊 Machine Learning / Deep Learning
 - 📊 RPA & etc.
 """
