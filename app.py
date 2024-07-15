@@ -138,9 +138,8 @@ PROJECTS = {
     "📚 Korea LNG Ltd. Homepage": "https://kolnghomepage.netlify.app/",
 }
 
-
 for project_name, project_url in PROJECTS.items():
-    st.write(f"[{project_name}]({project_url})")
+    st.markdown(f'<a href="{project_url}" class="project-link">{project_name}</a>', unsafe_allow_html=True)
 
 st.write('\n')
 st.write("---")
