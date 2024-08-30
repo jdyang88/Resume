@@ -118,18 +118,18 @@ st.write("---")
 
 # --- INTEREST ---
 st.write('\n')
-st.subheader("Interest")
+st.subheader("Interest (AI/DT, Sports & etc.")
 st.write(
     """
 - 📊 Python for data science
 - 📊 Machine Learning / Deep Learning
-- 📊 RPA & etc.
+- 📊 Soccer, Basketball, Road biking, Inline Skating & etc.
 """
 )
 
 # --- PROJECTS SECTION ---
 st.write('\n')
-st.write("Some examples")
+st.write("Some examples (AI/DT)")
 PROJECTS = {
     "📚 Korea Annual Population Dashboard": "https://koreanpopulation-jdyang88.streamlit.app/",
     "📚 Korea Lotto Prediciton by 5 ML Models": "https://korealotto-jdyangh88.streamlit.app/",
