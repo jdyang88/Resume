@@ -118,7 +118,7 @@ st.write("---")
 
 # --- INTEREST ---
 st.write('\n')
-st.subheader("Interest (AI/DT, Sports & etc.)")
+st.subheader("Interests (AI/DT, Sports & etc.)")
 st.write(
     """
 - 📊 Python for data science
