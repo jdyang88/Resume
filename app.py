@@ -64,7 +64,7 @@ st.write('\n')
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience")
+st.subheader("Experience (total 30 years in SK)")
 st.write(
     """
 - ✔️ 19 years in commercial, financial & strategic planning in E&P biz.
