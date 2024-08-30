@@ -67,7 +67,7 @@ st.write('\n')
 st.subheader("Experience")
 st.write(
     """
-- ✔️ 18 years in commercial, financial & strategic planning in E&P biz.
+- ✔️ 19 years in commercial, financial & strategic planning in E&P biz.
 - ✔️ 6 years as commercial manager in Lubricants biz.
 - ✔️ 5 years as chemical engineer in Petrochemicals
 """
