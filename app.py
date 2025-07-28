@@ -128,12 +128,12 @@ st.write("---")
 
 # --- INTEREST ---
 st.write('\n')
-st.subheader("Interests (AI/DT, Sports & etc.)")
+st.subheader("Interests")
 st.write(
     """
-- 📊 Python for data science
-- 📊 Machine Learning / Deep Learning
-- 📊 Soccer, Basketball, Road biking, Inline Skating & etc.
+- 📊 AI/DT
+- 📊 data science Machine Learning / Deep Learning
+- 📊 Sports : Soccer, Basketball, Road biking & others
 """
 )
 
