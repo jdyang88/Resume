@@ -17,7 +17,7 @@ NAME = "JD Yang"
 DESCRIPTION = """
 Project Manager in SK earthon
 """
-EMAIL = "jdyang@sk.com"
+EMAIL = "jdyang@sk.com | jdyang@kolng.com"
 
 # SOCIAL_MEDIA = {
 #     "YouTube": "https://youtube.com/c/codingisfun",
