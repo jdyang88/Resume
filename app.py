@@ -132,7 +132,7 @@ st.subheader("Interests")
 st.write(
     """
 - 📊 AI/DT
-- 📊 data science Machine Learning / Deep Learning
+- 📊 Data Science / Machine Learning / Deep Learning
 - 📊 Sports : Soccer, Basketball, Road biking & others
 """
 )
