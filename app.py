@@ -15,7 +15,7 @@ PAGE_TITLE = "Digital CV | JD Yang"
 PAGE_ICON = ":wave:"
 NAME = "JD Yang"
 DESCRIPTION = """
-Project Manager in SK earthon
+Director of Korea LNG Ltd. in London / GM of SK earthon in Seoul
 """
 EMAIL = "jdyang@sk.com or jdyang@kolng.com"
 
@@ -78,9 +78,19 @@ st.write('\n')
 st.subheader("Work History (1995-Present)")
 st.write("---")
 
+# --- JOB 0
+st.write('\n')
+st.write("🚧", "**Director | Korea LNG Ltd.(in London)**")
+st.write("03/2025 - present")
+st.write(
+    """
+- ► General Management for Oman LNG Ltd.
+"""
+)
+
 # --- JOB 1
-st.write("🚧", "**Project Manager  | SK earthon**")
-st.write("10/2022 - Present")
+st.write("🚧", "**GM | SK earthon**")
+st.write("10/2022 - 02/2025")
 st.write(
     """
 - ► Responsible for Qatar LNG and Oman LNG projects
@@ -91,7 +101,7 @@ st.write(
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**Director | Korea LNG Ltd.(London in U.K.)**")
+st.write("🚧", "**Director | Korea LNG Ltd.(in London)**")
 st.write("02/2019 - 10/2022")
 st.write(
     """
